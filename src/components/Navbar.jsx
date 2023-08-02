@@ -16,7 +16,7 @@ const Navbar = () => {
       </div>
 
       <div className="md:font-bold text-lg md:text-2xl lg:text-3xl uppercase">
-        <Link href="/">Logo</Link>
+        <Link href="/">Ixilicious</Link>
       </div>
 
       <div className="md:hidden">

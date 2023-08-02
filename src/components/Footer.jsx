@@ -7,7 +7,7 @@ const Footer = () => {
   return (
     <div className="bg-slate-800 flex flex-col gap-3 sm:gap-0 sm:flex-row  items-center justify-between px-6 md:px-20 py-3 text-white border-t-2 border-green-500 cursor-pointer">
       <p className="text-xs opacity-80">@All rights reserved</p>
-      <Link href="/" className="font-bold text-lg sm:text-2xl uppercase">Logo</Link>
+      <Link href="/" className="font-bold text-lg sm:text-2xl uppercase">Ixilicious</Link>
       <div className="flex gap-1 md:gap-3 opacity-80">
         <BiLogoFacebook className="transition hover:text-green-700" />
         <AiFillInstagram className="transition hover:text-green-700" />
