@@ -26,12 +26,12 @@ const Navbar = () => {
       <div className="hidden md:flex items-center gap-6">
         {
           user ? (
-            <Link href="/orders" className="py-3 px-5 border border-green-500 rounded-sm hover:bg-black hover:text-white transition ease-in-out duration-300">Orders</Link>
+            <Link href="/orders" className="py-3 px-5 border border-green-500 rounded-sm hover:bg-black hover:text-blue-200 transition ease-in-out duration-300">Orders</Link>
           ) : (
-            <Link href="/login" className="py-3 px-5 border border-green-500 rounded-sm hover:bg-black hover:text-white transition ease-in-out duration-300">Login</Link>
+            <Link href="/login" className="py-3 px-5 border border-green-500 rounded-sm hover:bg-black hover:text-blue-200 transition ease-in-out duration-300">Login</Link>
           )
         }
-        <Link href="/cart" className="bg-green-400 text-black font-medium rounded-sm py-3 px-5 border border-green-500 hover:bg-black hover:text-white transition ease-in-out duration-300">
+        <Link href="/cart" className="bg-green-400 text-black font-medium rounded-sm py-3 px-5 border border-green-500 hover:bg-black hover:text-blue-200 transition ease-in-out duration-300">
           <CartIcon />
         </Link>
       </div>
