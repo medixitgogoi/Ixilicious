@@ -1,10 +1,13 @@
 import './globals.css';
-import { Inter } from 'next/font/google';
+import { Ubuntu } from 'next/font/google';
 import Notification from '@/components/Notification';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 
-const inter = Inter({ subsets: ['latin'] })
+const inter = Ubuntu({
+  subsets: ['latin'],
+  weight: ["300", "400", "500", "700"]
+})
 
 export const metadata = {
   title: 'Food Ordering App',

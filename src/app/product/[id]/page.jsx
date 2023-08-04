@@ -1,9 +1,9 @@
-import React from 'react';
+import { pizzas, burgers, pastas } from "@/data";
 
-const Product = () => {
+const Product = ({params}) => {
   return (
     <div>
-      Product
+      {params.id}
     </div>
   );
 }
